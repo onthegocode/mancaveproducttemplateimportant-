@@ -76,17 +76,20 @@
           {% when 'video' %}
               <div
               id="{{ zoom_img_id }}"
-              style="padding-top:{{ 0.3 | divided_by: media.aspect_ratio | times: 100}}%;"
+              style="padding-top:{{ 0.1 | divided_by: media.aspect_ratio | times: 100}}%;"
               class="product-single__photo product-single__media--video product-single__media--{{ media.id }}{% unless featured_image == media %} hide{% endunless %}" 
-              data-image-id="{{ media.id }}" style="padding-top: {{ 0.3 | divided_by: media.aspect_ratio | times: 100 }}%;">
+              data-image-id="{{ media.id }}" style="padding-top: {{ 0.1 | divided_by: media.aspect_ratio | times: 100 }}%;">
                 {{ media | video_tag: class: 'test', controls: true, autoplay: true }}
               </div>
               <style>
+                .product-single__media--video {
+                  width: 100% 
+                text-align: center;}
               .test {
-              width: 35rem;
-                margin: 0 2.5rem;}
+              width: 100%;}
                 .product-single__media--video img{
                 	display: none !important;
+                }
                 }
             </style>
           {% endcase %}
