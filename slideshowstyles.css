@@ -1,0 +1,844 @@
+//SLIDERS
+.carousel-item-mains {
+  height: auto;
+  background-color: #777;
+  color: #fff;
+  position: relative !important;
+}
+.slider-header--1 {
+  margin-bottom: 0;
+}
+.container-mains {
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+.text-mains {
+  font-family: "Poppins", sans-serif;
+  position: absolute !important;
+  text-transform: uppercase;
+}
+
+.text-1 {
+  top: 29%;
+  left: 4%;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1.2;
+}
+.text-2 {
+  top: 25%;
+  left: 4%;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 1.13;
+  letter-spacing: 1px;
+  color: #2a6ab2;
+}
+.bold-text-1 {
+  font-size: 11rem;
+}
+.text-3 {
+  top: 20.5%;
+  left: 5.5%;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.13;
+  letter-spacing: 1px;
+}
+.bold-text-2 {
+  font-size: 9rem;
+}
+.sub-main-text-3 {
+  font-weight: 400;
+  font-size: 5rem;
+}
+.subtitle-mains {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+}
+.subtitle-1 {
+  top: 13%;
+  left: 4%;
+  font-size: 3.7rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.subtitle-2 {
+  top: 13.5%;
+  left: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  color: #061537;
+}
+.subtitle-3 {
+  top: 9%;
+  left: 5.5%;
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: 1.3rem;
+  text-transform: uppercase;
+}
+.slide-btn-mains:link,
+.slide-btn-mains:visited {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  color: #fff !important;
+}
+.slide-btn-mains:hover,
+.slide-btn-mains:active {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  color: #fff !important;
+}
+.slide-btn-1 {
+  bottom: 18%;
+  left: 3.8%;
+  padding: 1.2rem 4.2rem;
+  background-color: #1072a1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.slide-btn-2 {
+  bottom: 10%;
+  left: 3.8%;
+  padding: 1.2rem 4.2rem;
+  background-color: #061537;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.slide-btn-3 {
+  bottom: 10%;
+  left: 6.1%;
+  border: 0.7rem solid #fff;
+  padding: 0rem 0.8rem;
+  background-color: #061537;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.btn-container {
+  position: relative !important;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  padding: 0.5rem 3.125rem;
+  cursor: pointer;
+}
+.btn-container:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.btn-mains {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  color: white !important;
+  fill: #fff !important;
+  stroke: #fff !important;
+  background: white !important;
+  background-clip: content-box !important;
+  overflow: hidden !important;
+  box-shadow: none !important;
+}
+
+.nav-mains {
+  position: absolute !important;
+}
+
+.left-arrow-mains {
+  position: absolute !important;
+  background-color: transparent !important;
+  left: 0% !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+  fill: #fff !important;
+}
+
+.right-arrow-mains {
+  background-color: transparent !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+  fill: #fff !important;
+}
+.left-arrow-mains:hover,
+.right-arrow-mains:hover {
+  opacity: 1 !important;
+}
+.icon-chevron-left {
+  width: 10px;
+  height: 10px;
+}
+.icon-chevron-right {
+  width: 10px;
+  height: 10px;
+}
+.text-1-noupper {
+  text-transform: none !important;
+}
+.subtitle-2-color--white-thin{
+	color: #fff !important;
+  	font-weight: 400;
+}  
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1600px) {
+  .subtitle-1 {
+    font-size: 3rem;
+  }
+  .text-1 {
+    font-size: 5rem;
+  }
+  .slide-btn-1 {
+    padding: 1rem 3.8rem;
+    font-size: 3rem;
+  }
+  .subtitle-2 {
+    font-size: 2.8rem;
+  }
+  .text-2 {
+    font-size: 4rem;
+    line-height: 1.13;
+  }
+  .bold-text-1 {
+    font-size: 9rem;
+  }
+  .slide-btn-2 {
+    padding: 1rem 3.8rem;
+    font-size: 3rem;
+  }
+  .subtitle-3 {
+    font-size: 2.4rem;
+    left: 3.5%;
+  }
+  .text-3 {
+    line-height: 1;
+    left: 3%;
+  }
+  .bold-text-2 {
+    font-size: 9rem;
+  }
+  .sub-main-text-3 {
+    font-weight: 400;
+    font-size: 4.2rem;
+  }
+
+  .slide-btn-3 {
+    left: 3%;
+  }
+}
+@media only screen and (max-width: 1420px) {
+  .subtitle-1 {
+    font-size: 2.6rem;
+  }
+  .text-1 {
+    font-size: 4rem;
+  }
+  .slide-btn-1 {
+    padding: 0.8rem 3rem;
+    font-size: 2.8rem;
+  }
+  .subtitle-2 {
+    font-size: 2.6rem;
+  }
+  .text-2 {
+    font-size: 3rem;
+    line-height: 1.13;
+  }
+  .bold-text-1 {
+    font-size: 8rem;
+  }
+  .text-3 {
+    left: 2%;
+  }
+  .slide-btn-2 {
+    padding: 0.8rem 3rem;
+    font-size: 2.8rem;
+  }
+  .subtitle-3 {
+    font-size: 2.4rem;
+    left: 2.5%;
+  }
+  .bold-text-2 {
+    font-size: 7.8rem;
+  }
+  .sub-main-text-3 {
+    font-weight: 400;
+    font-size: 4.2rem;
+  }
+  .slide-btn-3 {
+    bottom: 6%;
+    left: 2%;
+    border: 0.5rem solid #fff;
+    padding: 0rem 0.6rem;
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .subtitle-1 {
+    font-size: 2rem;
+  }
+  .text-1 {
+    font-size: 3.4rem;
+  }
+  .slide-btn-1 {
+    padding: 0.4rem 2rem;
+    font-size: 2.6rem;
+  }
+  .subtitle-2 {
+    font-size: 2rem;
+  }
+  .text-2 {
+    font-size: 2.6rem;
+    line-height: 1.13;
+  }
+  .bold-text-1 {
+    margin-left: -1px;
+    font-size: 7rem;
+  }
+  .text-3 {
+    left: 2%;
+  }
+  .slide-btn-2 {
+    padding: 0.4rem 2rem;
+    font-size: 2.6rem;
+  }
+  .subtitle-3 {
+    font-size: 2rem;
+    left: 2.5%;
+  }
+  .bold-text-2 {
+    font-size: 6rem;
+  }
+  .sub-main-text-3 {
+    font-weight: 400;
+    font-size: 3.8rem;
+  }
+  .slide-btn-3 {
+    bottom: 4%;
+    left: 2%;
+    border: 0.4rem solid #fff;
+    padding: 0rem 0.6rem;
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .subtitle-1 {
+    font-size: 1.4rem;
+  }
+  .text-1 {
+    font-size: 3rem;
+    top: 25%;
+  }
+  .slide-btn-1 {
+    bottom: 15%;
+    padding: 0.4rem 2rem;
+    font-size: 2.2rem;
+  }
+  .subtitle-2 {
+    font-size: 1.4rem;
+    top: 18%;
+  }
+  .text-2 {
+    top: 25%;
+    font-size: 2rem;
+    line-height: 1.13;
+  }
+  .bold-text-1 {
+    margin-left: -1px;
+    font-size: 6rem;
+  }
+  .text-3 {
+    left: 2%;
+    top: 15%;
+  }
+  .slide-btn-2 {
+    bottom: 10%;
+    padding: 0.4rem 2rem;
+    font-size: 2.2rem;
+  }
+  .subtitle-3 {
+    font-size: 1.4rem;
+    left: 2.5%;
+    top: 4%;
+  }
+  .bold-text-2 {
+    font-size: 4rem;
+  }
+  .sub-main-text-3 {
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 0.1;
+  }
+  .slide-btn-3 {
+    bottom: 4%;
+    left: 2%;
+    border: 0.4rem solid #fff;
+    padding: 0rem 1rem;
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 975px) {
+  .right-arrow-mains {
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+  .left-arrow-mains {
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .subtitle-1 {
+    font-size: 1rem;
+  }
+  .text-1 {
+    font-size: 2.4rem;
+    top: 22%;
+  }
+  .slide-btn-1 {
+    bottom: 15%;
+    padding: 0.35rem 1.6rem;
+    font-size: 1.8rem;
+  }
+  .subtitle-2 {
+    font-size: 1rem;
+    top: 15%;
+  }
+  .text-2 {
+    top: 22%;
+    font-size: 1.6rem;
+    line-height: 1.13;
+  }
+  .bold-text-1 {
+    margin-left: -1px;
+    font-size: 5rem;
+  }
+  .text-3 {
+    left: 2%;
+    top: 15%;
+  }
+  .slide-btn-2 {
+    bottom: 10%;
+    padding: 0.35rem 1.6rem;
+    font-size: 1.8rem;
+  }
+  .subtitle-3 {
+    font-size: 1rem;
+    left: 2.5%;
+    top: 8%;
+  }
+  .bold-text-2 {
+    font-size: 3rem;
+  }
+  .sub-main-text-3 {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .slide-btn-3 {
+    bottom: 8%;
+    left: 2%;
+    border: 0.4rem solid #fff;
+    padding: 0rem 1rem;
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .subtitle-1 {
+    font-size: 0.8rem;
+  }
+  .text-1 {
+    font-size: 1.8rem;
+    top: 22%;
+  }
+  .slide-btn-1 {
+    bottom: 15%;
+    padding: 0.35rem 1.4rem;
+    font-size: 1.4rem;
+  }
+  .subtitle-2 {
+    font-size: 0.8rem;
+    letter-spacing: 10px;
+    top: 15%;
+  }
+  .text-2 {
+    top: 22%;
+    font-size: 1.4rem;
+    line-height: 1.13;
+  }
+  .bold-text-1 {
+    margin-left: -1px;
+    font-size: 4rem;
+  }
+  .text-3 {
+    left: 2%;
+    top: 20%;
+    line-height: 0.8;
+  }
+  .slide-btn-2 {
+    bottom: 10%;
+    padding: 0.35rem 1.4rem;
+    font-size: 1.4rem;
+  }
+  .subtitle-3 {
+    font-size: 0.8rem;
+    left: 2.5%;
+    top: 15%;
+  }
+  .bold-text-2 {
+    font-size: 2.6rem;
+  }
+  .sub-main-text-3 {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.1;
+  }
+  .slide-btn-3 {
+    bottom: 4%;
+    left: 2%;
+    border: 0.4rem solid #fff;
+    padding: 0rem 1rem;
+    font-size: 1.6rem;
+  }
+  .btn-container,
+  .btn-container:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  .carousel-indicators-mains {
+    position: absolute !important;
+    bottom: -10% !important;
+    margin-bottom: 0 !important;
+  }
+  .btn-mains {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    fill: rgba(0, 0, 0, 0.5) !important;
+    stroke: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    background-clip: content-box !important;
+    overflow: hidden !important;
+    box-shadow: none !important;
+  }
+  .left-arrow-mains {
+    position: absolute;
+    background-color: transparent !important;
+    left: 0% !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .right-arrow-mains {
+    background-color: transparent !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .subtitle-1 {
+    font-size: 0.8rem;
+  }
+  .text-1 {
+    font-size: 1.8rem;
+    top: 22%;
+  }
+  .slide-btn-1 {
+    bottom: 15%;
+    padding: 0.35rem 1.4rem;
+    font-size: 1.4rem;
+  }
+  .subtitle-2 {
+    font-size: 0.8rem;
+    letter-spacing: 10px;
+    top: 15%;
+  }
+  .text-2 {
+    top: 22%;
+    font-size: 1rem;
+    line-height: 1.13;
+  }
+  .bold-text-1 {
+    margin-left: -1px;
+    font-size: 3rem;
+  }
+  .text-3 {
+    left: 2%;
+    top: 10%;
+    line-height: 0.8;
+  }
+  .slide-btn-2 {
+    bottom: 10%;
+    padding: 0.35rem 1.4rem;
+    font-size: 1.4rem;
+  }
+  .subtitle-3 {
+    font-size: 0.8rem;
+    left: 2.5%;
+    top: 6%;
+  }
+  .bold-text-2 {
+    font-size: 2.6rem;
+  }
+  .sub-main-text-3 {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.1;
+  }
+  .slide-btn-3 {
+    bottom: 4%;
+    left: 2%;
+    border: 0.4rem solid #fff;
+    padding: 0rem 1rem;
+    font-size: 1.4rem;
+  }
+  .btn-container,
+  .btn-container:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  .carousel-indicators-mains {
+    bottom: -10% !important;
+    margin-bottom: 0 !important;
+  }
+  .btn-mains {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    fill: rgba(0, 0, 0, 0.5) !important;
+    stroke: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    background-clip: content-box !important;
+    overflow: hidden !important;
+    box-shadow: none !important;
+  }
+  .left-arrow-mains {
+    position: absolute;
+    background-color: transparent !important;
+    left: 0% !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .right-arrow-mains {
+    background-color: transparent !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .subtitle-1 {
+    font-size: 0.6rem;
+  }
+  .text-1 {
+    font-size: 1.2rem;
+    top: 22%;
+  }
+  .slide-btn-1 {
+    bottom: 15%;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  .subtitle-2 {
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    top: 6%;
+  }
+  .text-2 {
+    top: 18%;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  .bold-text-1 {
+    margin-left: -1px;
+    font-size: 2.6rem;
+  }
+  .text-3 {
+    left: 2%;
+    top: 9%;
+    line-height: 0.6;
+  }
+  .slide-btn-2 {
+    bottom: 10%;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  .subtitle-3 {
+    font-size: 0.6rem;
+    left: 2.5%;
+    letter-spacing: 4px;
+    top: 6%;
+  }
+  .bold-text-2 {
+    font-size: 2rem;
+  }
+  .sub-main-text-3 {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .slide-btn-3 {
+    bottom: 4%;
+    left: 2%;
+    border: 0.2rem solid #fff;
+    padding: 0rem 0.6rem;
+    font-size: 1rem;
+  }
+  .btn-container,
+  .btn-container:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  .carousel-indicators-mains {
+    bottom: -16% !important;
+    margin-bottom: 0 !important;
+  }
+  .btn-mains {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    fill: rgba(0, 0, 0, 0.5) !important;
+    stroke: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    background-clip: content-box !important;
+    overflow: hidden !important;
+    box-shadow: none !important;
+  }
+  .left-arrow-mains {
+    position: absolute;
+    background-color: transparent !important;
+    left: 0% !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .right-arrow-mains {
+    background-color: transparent !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .subtitle-1 {
+    top: 4%;
+    font-size: 0.5rem;
+  }
+  .text-1 {
+    font-size: 1rem;
+    top: 15%;
+  }
+  .slide-btn-1 {
+    bottom: 10%;
+    padding: 0.2rem 0.6rem;
+    font-size: 1rem;
+  }
+  .subtitle-2 {
+    font-size: 0.6rem;
+    letter-spacing: 5px;
+    top: 6%;
+  }
+  .text-2 {
+    top: 18%;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  .bold-text-1 {
+    margin-left: -1px;
+    font-size: 2rem;
+  }
+  .text-3 {
+    left: 2%;
+    top: 5%;
+    display: inline-block;
+    line-height: 0.4;
+  }
+  .slide-btn-2 {
+    bottom: 10%;
+    padding: 0.2rem 0.6rem;
+    font-size: 1rem;
+  }
+  .subtitle-3 {
+    font-size: 0.6rem;
+    left: 2.5%;
+    letter-spacing: 4px;
+    top: 6%;
+  }
+  .bold-text-2 {
+    font-size: 1.6rem;
+  }
+  .sub-main-text-3 {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  .slide-btn-3 {
+    bottom: 4%;
+    left: 2%;
+    border: 0.2rem solid #fff;
+    padding: 0rem 0.4rem;
+    font-size: 0.8rem;
+  }
+  .btn-container,
+  .btn-container:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0rem 3.125rem;
+  }
+  .carousel-indicators-mains {
+    bottom: -18% !important;
+    margin-bottom: 0 !important;
+  }
+  .btn-mains {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    fill: rgba(0, 0, 0, 0.5) !important;
+    stroke: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    background-clip: content-box !important;
+    overflow: hidden !important;
+    box-shadow: none !important;
+  }
+  .left-arrow-mains {
+    position: absolute;
+    background-color: transparent !important;
+    left: 0% !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .right-arrow-mains {
+    background-color: transparent !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    fill: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+.padding-bottom-0 {
+  margin-bottom: -15px !important;
+}
